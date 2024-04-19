@@ -28,3 +28,13 @@ public class BeaufortEncrypt {
         }
         return cipher.toString();
     }
+  public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("CipherText: ");
+        String cipher = scanner.nextLine();
+        System.out.print("Key: ");
+        String key = scanner.nextLine();
+        String message = beaufortDecrypt(cipher.toUpperCase(), key.toUpperCase());
+        System.out.println("PlainText: " + message);
+    }
+}
