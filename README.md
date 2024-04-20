@@ -3,7 +3,7 @@
 #### Enkriptimi dhe dekriptimi përmes Beaufor Cipher
 
 Beaufor Cipher është një sistem i thjeshtë i enkriptimit dhe dekriptimit që përdor një tabelë të rregullt për të zëvendësuar karakteret origjinale me karaktere të tjera. Kjo teknikë është e bazuar **në shkëmbimin e karaktereve duke përdorur një tabelë të përcaktuar paraprakisht**.
-
+![1_ZX5IdK5Eq3lfdE-skQ5MGQ.png](..%2F..%2F1_ZX5IdK5Eq3lfdE-skQ5MGQ.png)
 #### Historiku
 
 Beaufor Cipher u përdor fillimisht në vitin 1850 nga Joseph Mauborgne. Një nga aplikacionet më të famshme për këtë cipher ishte M-209 Cipher Machine (1936) e cila ishte një makinë e përdorur për të koduar dhe deshifruar mesazhet kryesisht gjatë Luftës së Koresë.
