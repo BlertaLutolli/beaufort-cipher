@@ -20,4 +20,20 @@ public class BeaufortDecrypt {
         }
         return decipher.toString();
     }
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Cipher Text: ");
+            String cipher =
+                    scanner.nextLine().toUpperCase();
+
+            String key;
+            do { System.out.println("Key:");
+                key = scanner.nextLine().toUpperCase( );
+                if (!isAlpha(key)) {
+                    System.out.println("Error: Celesi duhet te permbaje vetem  shkronja.");
+                }
+        } while (!isAlpha(key));
+            String message = beaufortDecrypt(cipher, key);
+            System.out.println("Plain Text:" + message);
+    }
 }
