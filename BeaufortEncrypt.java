@@ -30,12 +30,10 @@ public class BeaufortEncrypt { // Krijimi i nje klase qe permban nje metode stat
             }
             cipher.append(ALPHABET.charAt(offset)); // Shtohet shkronja e enkriptuar në tekstin e enkriptuar
         }
-<<<<<<< HEAD
         return cipher.toString(); //  Kthehen tekstin e enkriptuar ne një string
     }
-=======
-        return cipher.toString();
-    }
+
+
     // Metoda që verifikon nëse një string përmban vetëm shkronja
     public static boolean isAlpha(String str) {
         return str.matches("[a-zA-Z]+");
@@ -59,4 +57,3 @@ public class BeaufortEncrypt { // Krijimi i nje klase qe permban nje metode stat
         System.out.println("CipherText: " + cipher);
     }
 }
->>>>>>> 15f62ad6cca6617cc090e227b01873d0902f90bd
