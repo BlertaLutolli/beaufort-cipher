@@ -15,7 +15,8 @@ Edhe pse Beaufor Cipher ofron një nivel sigurie përtej ciphers më të thjesht
 Qëllimi i këtij projekti është të prezantojë një implementim të thjeshtë dhe efikas të algoritmit të Beaufor Cipher për të siguruar dhe mbrojtur të dhënat e ndjeshme.Duke demonstruar funksionimin e tij dhe për të ofruar një shembull të qartë të përdorimit të tij për të kuptuar këtë teknikë të enkriptimit.
 
 ## Implementimi
-
+Implementimi i algoritmit është zhvilluar në gjuhën programuese të zgjedhur Java. Përdoruesit mund ta shkarkojnë dhe ta ekzekutojnë kodin burimor për të përdorur algoritmin.
+Për të ekzekutuar kodin në një paisje, përdoruesit duhet të sigurohen që të kenë instaluar një mjedis të përshtatshëm për zhvillimin e gjuhës së zgjedhur, për ta bërë këtë ne kemi zgjedhur IntelliJ.
 
 ## Rezultatet e Projektit
 
