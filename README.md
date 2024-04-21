@@ -41,5 +41,8 @@ Për informacion shtesë rreth algoritmit të Beaufor Cipher dhe përdorimit të
 + Bleron Rrmoku	
 + Blerta Lutolli
 
+  Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike
+  Departamenti: Inxhinieri Kompjuterike dhe Softuerike
+
 Profesor: **PhD.c Mërgim Hoti**
 
