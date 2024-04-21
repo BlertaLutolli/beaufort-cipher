@@ -21,18 +21,18 @@ public class BeaufortDecrypt { //Krijimi i një klase që përmban një metodë 
         return decipher.toString(); //Kthen tekstin e dekriptuar në një string.
     }
         public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in); // Krijimi i një objekti të klases Scanner për të pranuar input-in nga përdoruesi
+            Scanner scanner = new Scanner(System.in); //Krijimi i një objekti të klases Scanner për të pranuar input-in nga përdoruesi
             System.out.println("Cipher Text: "); //Shfaqet mesazhi per te kerkuar tekstin e koduar
-            String cipher = scanner.nextLine().toUpperCase(); // Merr input-in për tekstin e shifrës dhe e konverton në shkronja të mëdha (Upper Case)
+            String cipher = scanner.nextLine().toUpperCase(); //Merr input-in për tekstin e shifrës dhe e konverton në shkronja të mëdha (Upper Case)
 
-            String key; // Deklarimi i variablës për ruajtjen e çelësit
-            do { System.out.println("Key:"); // Fillimi i loop-it do-while për siguruar që çelësi i dhënë është vetëm tekst alfanumerik
-                key = scanner.nextLine().toUpperCase( ); // Merr input-in për çelësin dhe e konverton në shkronja të mëdha
-                if (!isAlpha(key)) {  // Kontrolli nëse çelësi i dhënë përmban vetëm shkronja
-                    System.out.println("Error:  çelesi duhet te permbaje vetem  shkronja."); // Shfaqja e një mesazhi gabimi nëse çelësi nuk përmban vetëm shkronja
+            String key; //Deklarimi i variablës për ruajtjen e çelësit
+            do { System.out.println("Key:"); //Fillimi i loop-it do-while për siguruar që çelësi i dhënë është vetëm tekst alfanumerik
+                key = scanner.nextLine().toUpperCase( ); //Merr input-in për çelësin dhe e konverton në shkronja të mëdha
+                if (!isAlpha(key)) {  //Kontrolli nëse çelësi i dhënë përmban vetëm shkronja
+                    System.out.println("Error:  çelesi duhet te permbaje vetem  shkronja."); //Shfaqja e një mesazhi gabimi nëse çelësi nuk përmban vetëm shkronja
                 }
-        } while (!isAlpha(key)); // Përsërit loop-in do-while derisa të jepet një çelës i vlefshëm
-            String message = beaufortDecrypt(cipher, key); // Dekriptimi i tekstit të shifrës duke përdorur çelësin e dhënë
-            System.out.println("Plain Text:" + message); // Shfaqja e tekstit të dekriptuar të shifrës si output
+        } while (!isAlpha(key)); //Përsërit loop-in do-while derisa të jepet një çelës i vlefshëm
+            String message = beaufortDecrypt(cipher, key); //Dekriptimi i tekstit të shifrës duke përdorur çelësin e dhënë
+            System.out.println("Plain Text:" + message); //Shfaqja e tekstit të dekriptuar të shifrës si output
     }
 }
